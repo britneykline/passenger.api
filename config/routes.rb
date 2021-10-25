@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'rides/index'
+  get 'rides/new'
+  get 'rides/create'
+  get 'rides/destroy'
   get 'passengers/index'
   get 'passengers/new'
   get 'passengers/create'
